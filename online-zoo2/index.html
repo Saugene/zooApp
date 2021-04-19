@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saugene - online-zoo</title>
+    <link rel="stylesheet" href="pages/style.css">
+</head>
+<body>
+    
+    <header> 
+        <div class="headerContainer">
+            <h1>Online Zoo</h1>
+            <div>
+                <a href="#" class="logo"><img src="assets/icons/logo.png" alt="Online Zoo" class="logo_img"></a>
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#" class="about navLinkActive">About</a></li>
+                    <li><a href="pages/panda.html" class="zoos">Zoos</a></li>
+                    <li><a href="pages/map.html" class="map">Map</a></li>
+                    <li><a href="#bottom" class="contactUs">Contact Us</a></li>
+                    <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="design">Design</a></li>
+                </ul>
+            </nav>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+
+    <main>
+        <section class="watch">
+            <div class="container">
+                <h2>Watch your favorite <br>
+                    animal online
+                </h2>
+                <form action="pages/panda.html">
+                    <button class="watchOnline" id="buttonWatch">
+                        <img src="assets/icons/btn_circle.png" alt="Watch" class="btnImg">
+                        <div class="btnText">
+                            Watch Online
+                        </div>
+                </button>
+                </form>
+                <div class="animalsSlider">
+                    <div class="mainSlider">
+                        <div class="sliderCard eagle">
+                            <img class="mainAnimals gallery-animals" src="assets/images/animals/eagle.jpeg" alt="Eagle">
+                            <div class="animalsSliderInfo">
+                                <p class="sliderInfoText">
+                                    Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from
+                                    China. He loves bamboos.
+                                </p>
+                                <div class="infoBtn">
+                                    <a href="pages/eagle.html" class="sliderInfoBtn">
+                                        <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                    </a>
+                                    <a href="#" class="sliderInfoBtn">
+                                        <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliderCard panda activeAnimal">
+                            <img class="mainAnimals gallery-animals gallery-activeAnimal" src="assets/images/animals/panda.jpeg" alt="Panda">
+                            <div class="animalsSliderInfo">
+                                <p class="sliderInfoText">
+                                    Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from
+                                    China. He loves bamboos.
+                                </p>
+                                <div class="infoBtn">
+                                    <a href="pages/panda.html" class="sliderInfoBtn">
+                                        <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                    </a>
+                                    <a href="#" class="sliderInfoBtn">
+                                        <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliderCard gorilla">
+                            <img class="mainAnimals gallery-animals" src="assets/images/animals/gorilla.jpeg" alt="Gorilla">
+                            <div class="animalsSliderInfo">
+                                <p class="sliderInfoText">
+                                    Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from
+                                    China. He loves bamboos.
+                                </p>
+                                <div class="infoBtn">
+                                    <a href="pages/gorilla.html" class="sliderInfoBtn">
+                                        <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                    </a>
+                                    <a href="#" class="sliderInfoBtn">
+                                        <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliderCard alligator">
+                            <img class="mainAnimals gallery-animals" src="assets/images/animals/alligator.jpeg" alt="Alligator">
+                            <div class="animalsSliderInfo">
+                                <p class="sliderInfoText">
+                                    Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from
+                                    China. He loves bamboos.
+                                </p>
+                                <div class="infoBtn">
+                                    <a href="pages/alligator.html" class="sliderInfoBtn">
+                                        <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                    </a>
+                                    <a href="#" class="sliderInfoBtn">
+                                        <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sliderCard fox">
+                            <img class="mainAnimals gallery-animals" src="assets/images/animals/fox.jpeg" alt="Fox">
+                            <div class="animalsSliderInfo">
+                                <p class="sliderInfoText">
+                                    Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from
+                                    China. He loves bamboos.
+                                </p>
+                                <div class="infoBtn">
+                                    <a href="#" class="sliderInfoBtn">
+                                        <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                    </a>
+                                    <a href="#" class="sliderInfoBtn">
+                                        <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sliderFirst range-slider">
+                        <span class="slider-first__text">0<span class="slider-first__text-now">2</span>/<span class="slider__text-value">08</span></span>
+                        <input class="first__slider" type="range" value="2" min="1" max="8"></input>
+                    </div>
+                </div>
+                <div class="social">
+                    <img src="assets/icons/instagram.png" alt="Instagram" class="instagram">
+                    <img src="assets/icons/twitter.png" alt="Twitter" class="twitter">
+                    <img src="assets/icons/youtube.png" alt="Youtube" class="youtube">
+                    <img src="assets/icons/vk.png" alt="Vk" class="vk">
+                </div>
+            </div>
+        </section>
+        <section class="howItWorks">
+            <div class="container">
+                <div class="containerHow">
+                    <h3 class="secondSectionText">
+                        How it works?
+                    </h3>
+                    <div class="textHowBlock">
+                        <p class="textHow">
+                            As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat,
+                            and we are determined to assist in all aspects, including providing veterinary support and raising much-needed emergency
+                            funds. Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives. Animals have the right to a
+                            pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.As
+                            a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.
+                        </p>
+                    </div>
+                    <img src="assets/images/secGeyik.png" alt="Geyiks" class="secgeyik">
+                    <div class="range-slider howItWorks__range-slider">
+                        <span class="slider__text howItWorks__slider-text">
+                            <span class="slider__text-now">01</span>
+                            /
+                            <span class="slider__text-value">04</span>
+                        </span>
+                        <input type="range" class="gallery__slider howItWorks__slider" value="1" min="1" max="4">
+                    </div>
+                    <form action="pages/panda.html">
+                        <button class="watchOnline" id="buttonHow">
+                            <img src="assets/icons/btn_circle.png" alt="Watch" class="btnImg">
+                            <div class="btnText">
+                                Watch Online
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="neden">
+            <div class="container">
+                <div class="flexSection">
+                    <div class="flexBlock">
+                        <img src="assets/images/flexLamp.png" alt="What inspires us?" class="flexImg">
+                        <h4 class="flexSapl">
+                            What inspires us?
+                        </h4>
+                        <p class="flexText">
+                            As a voice for wildlife, we are devastated by the impact of the
+                            2020 Australian bushfires on precious species and their
+                             habitat, and we are determined to assist in all aspects.
+                        </p>
+                    </div>
+                    <div class="flexBlock">
+                        <img src="assets/images/flexFlag.png" alt="Our mission" class="flexImg">
+                        <h4 class="flexSapl">
+                            Our mission
+                        </h4>
+                        <p class="flexText">
+                            Zoo Online saves wildlife and inspires everyone to make
+                            conservation a priority in their lives. 
+                        </p>
+                    </div>
+                    <div class="flexBlock">
+                        <img src="assets/images/flexHeart.png" alt="What we believe in?" class="flexImg">
+                        <h4 class="flexSapl">
+                            What we believe in?
+                        </h4>
+                        <p class="flexText">
+                            Animals have the right to a pain-free and happy life. They
+                            have equal claim to the resources of this planet, and deserve
+                            a life of dignity and compassion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pets">
+            <div class="container">
+                <h3 class="saplPets">
+                    Pets in Zoo
+                </h3>
+                <div class="sliderPets">
+                    <div>
+                        <img class="leftArrow" src="assets/icons/left-arrow.png" alt="Left">
+                    </div>
+                    <div class="animalPets pandaPets">
+                        <img class="mainAnimals all-animals mainAnimalsPets" src="assets/images/animals/panda.jpeg" alt="Panda">
+                        <div class="animalsSliderInfo animalsSliderInfoPets">
+                            <p class="sliderInfoText">
+                                Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from
+                                China. He loves bamboos.
+                            </p>
+                            <div class="infoBtn">
+                                <a href="pages/panda.html" class="sliderInfoBtn">
+                                    <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                </a>
+                                <a href="#" class="sliderInfoBtn">
+                                    <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animalPets eaglePets">
+                        <img class="mainAnimals all-animals mainAnimalsPets" src="assets/images/animals/eagle.jpeg" alt="Eagle">
+                        <div class="animalsSliderInfo animalsSliderInfoPets">
+                            <p class="sliderInfoText">
+                                Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from
+                                China. He loves bamboos.
+                            </p>
+                            <div class="infoBtn">
+                                <a href="pages/eagle.html" class="sliderInfoBtn">
+                                    <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                </a>
+                                <a href="#" class="sliderInfoBtn">
+                                    <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animalPets gorillaPets">
+                        <img class="mainAnimals all-animals mainAnimalsPets" src="assets/images/animals/gorillaPets.png" alt="Gorilla">
+                        <div class="animalsSliderInfo animalsSliderInfoPets">
+                            <p class="sliderInfoText">
+                                Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from
+                                China. He loves bamboos.
+                            </p>
+                            <div class="infoBtn">
+                                <a href="pages/gorilla.html" class="sliderInfoBtn">
+                                    <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                </a>
+                                <a href="#" class="sliderInfoBtn">
+                                    <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animalPets alligatorPets">
+                        <img class="mainAnimals all-animals mainAnimalsPets" src="assets/images/animals/alligator.jpeg" alt="Alligator">
+                        <div class="animalsSliderInfo animalsSliderInfoPets">
+                            <p class="sliderInfoText">
+                                Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from
+                                China. He loves bamboos.
+                            </p>
+                            <div class="infoBtn">
+                                <a href="pages/alligator.html" class="sliderInfoBtn">
+                                    <img src="assets/icons/watch_btn_slider.png" alt="Watch Eagle">
+                                </a>
+                                <a href="#" class="sliderInfoBtn">
+                                    <img src="assets/icons/donate_btn_slider.png" alt="Donate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="rightArrow" src="assets/icons/right-arrow.png" alt="Right">
+                    </div>
+                </div>
+                <div class="range-slider range-sliderPets">
+                    <span class="slider-pets__text">0<span class="slider-pets__text-now">1</span>/<span class="slider__text-value">08</span></span>
+                    <input class="pets__slider" type="range" value="1" min="1" max="8"></input>
+                </div>
+                <button class="watchOnline" id="buttonPets">
+                    <div class="btnText">
+                        Choose your favorite
+                    </div>
+                </button>
+            </div>
+        </section>
+        <section class="pay">
+            <div class="container">
+                <h3 class="saplPay">
+                    Pay and feed
+                </h3>
+                <p class="textPay">
+                    The opportunity to easily and naturally (but as often as possible) donate to the needs of animals that you like.
+                </p>
+                <div class="flexGreen">
+                    <div class="blockGreen">
+                        <img src="assets/icons/moneyGreen.png" alt="Pay" class="imgGreen">
+                        <h5 class="textGreen">
+                            You pay with a <br>
+                            VISA card
+                        </h5>
+                    </div>
+                    <div class="arrow">
+                        <img src="assets/icons/arrowGreen.png" alt="arrow">
+                    </div>
+                    <div class="arrowMini">
+                        <img src="assets/icons/arrowMini.png" alt="arrow">
+                    </div>
+                    <div class="blockGreen">
+                        <img src="assets/icons/zooGreen.png" alt="Zoo" class="imgGreen">
+                        <h5 class="textGreen">
+                            Payment goes <br>
+                            to the Zoo
+                        </h5>
+                    </div>
+                    <div class="arrow">
+                        <img src="assets/icons/arrowGreen.png" alt="arrow">
+                    </div>
+                    <div class="arrowMini">
+                        <img src="assets/icons/arrowMini.png" alt="arrow">
+                    </div>
+                    <div class="blockGreen">
+                        <img src="assets/icons/pandaGreen.png" alt="Panda" class="imgGreen">
+                        <h5 class="textGreen">
+                            Panda gets <br>
+                            the bamboo
+                        </h5>
+                    </div>
+                </div>
+                <button class="btnGreen">
+                    Donate
+                </button>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <h3 class="saplTestimonials">
+                    Testimonials
+                </h3>
+                <div class="sliderTestimonials">
+                    <div>
+                        <img class="leftArrow" src="assets/icons/left-arrow.png" alt="Left">
+                    </div>
+                    <div class="tesimonialBlock testimonialNastya">
+                        <img src="assets/images/testimonial/nastya_sidorova.png" alt="Nastya">
+                        <p class="saplTestimName">Nasya Sidorova</p>
+                        <p class="textTestim">
+                            As a voice for wildlife, we are devastated by the 
+                            impact of the 2020 Australian bushfires on 
+                            precious species and their habitat.
+                        </p>
+                    </div>
+                    <div class="tesimonialBlock testimonialVlad">
+                        <img src="assets/images/testimonial/vlad_kim.png" alt="Vlad">
+                        <p class="saplTestimName">Vlad Kim</p>
+                        <p class="textTestim">As a voice for wildlife, we are devastated by the 
+                            impact of the 2020 Australian bushfires on 
+                            precious species and their habitat.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="rightArrow" src="assets/icons/right-arrow.png" alt="Right">
+                    </div>
+                </div>
+                <div class="range-slider range-sliderPets">
+                    <span class="slider-pets__text">0<span class="slider-pets__text-now">2</span>/<span class="slider__text-value">08</span></span>
+                    <input class="pets__slider" type="range" value="2" min="1" max="8"></input>
+                </div>
+                <button class="watchOnline" id="buttonTestimomials">
+                    <div class="btnText">
+                        Leave feedback
+                    </div>
+                </button>
+            </div>
+        </section>
+        <section class="mapSect">
+            <div class="container">
+                <h3 class="saplMap">
+                    Map
+                </h3>
+                <div class="realMap">
+                    <img src="assets/images/map.png" alt="Map" class="mapImg">
+                    <img src="assets/images/mapMini.png" alt="Map" class="mapImgMini">
+                    <div class="greenMark eagle_green-mark">
+                        <img src="assets/images/eagle_circle.png" alt="Eagle" class="circle_mark">
+                    </div>
+                    <div class="greenMark alligator_green-mark">
+                        <img src="assets/images/alligator_circle.png" alt="Alligator" class="circle_mark">
+                    </div>
+                    <div class="greenMark gorilla_green-mark">
+                        <img src="assets/images/gorilla_circle.png" alt="Gorilla" class="circle_mark">
+                    </div>
+                    <div class="greenMark panda_green-mark">
+                        <img src="assets/images/panda_circle.png" alt="Panda" class="circle_mark">
+                    </div>
+                </div>
+                <button class="watchOnline" id="buttonMap">
+                    <img src="assets/icons/btn_circle.png" alt="Watch" class="btnImg">
+                    <div class="btnText">
+                        Watch Online
+                    </div>
+                </button>
+            </div>
+        </section>
+    </main>
+   
+    <footer id="bottom">
+        <div class="container">
+            <a href="#"> <img src="assets/icons/zooLogoLight.png" alt="Zoo" class="logo_imgLight"></a>
+            <div class="linksFooter">
+                <a href="#" class="AboutFooter">About</a>
+                <a href="#" class="ZoosFooter">Zoos</a>
+                <a href="#" class="MapFooter">Map</a>
+                <a href="#" class="DesignFooter">Design</a>
+            </div>
+            <button class="btnDonateForVolun">
+                <div class="btnTextDonate">
+                    Donate for volunteers
+                </div>
+            </button>
+            <h4 class="ContactUsFooter">
+                Contact Us
+            </h4>
+            <form class="ContactForm">
+                <div class="inputBlock">
+                    <input type="text" class="inputName" placeholder="Name">
+                </div>
+                <div class="inputBlock">
+                    <input type="email" class="inputEmail" placeholder="Email">
+                </div>
+                <fieldset class="footerFieldset">
+                    <legend class="footerLegend">Please enter your message</legend>
+                    <textarea class="footerTeaxtarea" maxlength="280" required></textarea>
+                </fieldset>
+                <div class="agreeBlock">
+                    <input type="checkbox" id="agree" class="checkbox">
+                    <label for="agree" class="agreeText">I agree to the processing of Personal Data</label>
+                </div>
+                <button class="sendArrow">
+                    <img src="assets/icons/send_btn.png" alt="Send">
+                </button>
+            </form>
+            <h5 class="zooOnlineCenter">Zoo Online Center</h5>
+            <address>
+                <p class="contactAddress">
+                    132, Address District, Street <br>
+                    Open Daily 10:00 am - 5:00 pm
+                </p>
+                <div class="contactsNumMail">
+                    <a href="tel:+7021633433" class="contactAddress">T(702)163-3433</a> <br>
+                    <a href="mailto:zoo.online@gmail.com" class="contactAddress">zoo.online@gmail.com</a>
+                </div>
+            </address>
+            <div class="socialFooter">
+                <img src="assets/icons/instagram.png" alt="Instagram" class="instagram">
+                <img src="assets/icons/twitter.png" alt="Twitter" class="twitter">
+                <img src="assets/icons/youtube.png" alt="Youtube" class="youtube">
+                <img src="assets/icons/vk.png" alt="Vk" class="vk">
+            </div>
+            <hr class="footerHr">
+            <p class="authorFooter">
+                ©Noora Sagnayeva <br>
+                ©RSSchool and ©Yem Digital - 2021
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

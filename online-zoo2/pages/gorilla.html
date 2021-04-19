@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorilla stream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="headerContainer">
+        <h1>Online Zoo</h1>
+        <a href="../index.html" class="logo"><img src="../assets/icons/logo.png" alt="Online Zoo" class="logo_img"></a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html" class="about">About</a></li>
+                <li><a href="#" class="zoos navLinkActive">Zoos</a></li>
+                <li><a href="map.html" class="map">Map</a></li>
+                <li><a href="#bottom" class="contactUs">Contact Us</a></li>
+                <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp" class="design">Design</a></li>
+            </ul>
+        </nav>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+</header>
+<main>
+    <section class="video">
+        <aside>
+            <div class="sliderAnimalMapVert">
+                <div>
+                    <img class="leftArrow" src="../assets/icons/top-arrow.png" alt="Left">
+                </div>
+                <div class="gradientBlock">
+                    <a href="panda.html" class="animalBlock">
+                        <img src="../assets/images/panda_circle_map.png" alt="Panda" class="sliderAnimalImg">
+                    </a>
+                </div>
+                <div class="gradientBlock">
+                    <a href="eagle.html" class="animalBlock">
+                        <img src="../assets/images/eagle_circle_map.png" alt="Eagle" class="sliderAnimalImg">
+                    </a>
+                </div>
+                <div class="gradientBlock">
+                    <a href="alligator.html" class="animalBlock">
+                        <img src="../assets/images/alligator_circle_map.png" alt="Alligator" class="sliderAnimalImg">
+                    </a>
+                </div>
+                <div class="gradientBlock gradientBlockActive">
+                    <a href="#" class="animalBlock">
+                        <img src="../assets/images/gorilla_circle_map.png" alt="Gorilla" class="sliderAnimalImg">
+                    </a>
+                </div>
+                <div>
+                    <img class="rightArrow" src="../assets/icons/down-arrow.png" alt="Right">
+                </div>
+            </div>
+        </aside>
+        <h3 class="saplTBZ">
+            Grace Gorilla Forest Corridor
+        </h3>
+        <div class="hero">
+            <div class="heroVideo">
+                <iframe class="mainVideo" src="https://www.youtube.com/embed/rgXWDk7rh4w" allowfullscreen="true"></iframe>
+                <div class="sliderVideo">
+                    <div class="videoSlider">
+                        <div class="videoSliderCard">
+                            <iframe class="cardVideo" src="https://www.youtube.com/embed/rgXWDk7rh4w" allowfullscreen="true"></iframe>
+                        </div>
+                        <div class="videoSliderCard">
+                            <iframe class="cardVideo" src="https://www.youtube.com/embed/rgXWDk7rh4w" allowfullscreen="true"></iframe>
+                        </div>
+                        <div class="videoSliderCard">
+                            <iframe class="cardVideo" src="https://www.youtube.com/embed/rgXWDk7rh4w" allowfullscreen="true"></iframe>
+                        </div>
+                    </div>
+                    <div class="switchers">
+                        <div class="circle circleActive"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div>
+                    <h4 class="infoTitle">Population</h4>
+                    <p class="infoP">Over 100,000 western lowland gorillas</p>
+                </div>
+                <div>
+                    <h4 class="infoTitle">Habitat</h4>
+                    <p class="infoP">Gorillas typically live in the lowland tropical rainforests of Central Africa</p>
+                </div>
+                <div>
+                    <h4 class="infoTitle">Diet:</h4>
+                    <p class="infoP">
+                        Gorillas stick to a mainly vegetarian diet, feeding on stems, <br>
+                        bamboo shoots and fruits. Western lowland gorillas, <br>
+                        however, also have an appetite for termites and ants, and <br>
+                        break open termite nests to eat the larvae.
+                    </p>
+                </div>
+                <button class="watchOnline" id="buttonFeed">
+                    <div class="btnText">
+                        Feed
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="bottom">
+    <div class="container">
+        <a href="#"> <img src="../assets/icons/zooLogoLight.png" alt="Zoo" class="logo_imgLight"></a>
+        <div class="linksFooter">
+            <a href="../index.html" class="AboutFooter">About</a>
+            <a href="#" class="ZoosFooter">Zoos</a>
+            <a href="map.html" class="MapFooter">Map</a>
+            <a href="#" class="DesignFooter">Design</a>
+        </div>
+        <button class="btnDonateForVolun">
+            <div class="btnText">
+                Watch Online
+            </div>
+        </button>
+        <h4 class="ContactUsFooter">
+            Contact Us
+        </h4>
+        <form class="ContactForm">
+            <div class="inputBlock">
+                <input type="text" class="inputName" placeholder="Name">
+            </div>
+            <div class="inputBlock">
+                <input type="email" class="inputEmail" placeholder="Email">
+            </div>
+            <fieldset class="footerFieldset">
+                <legend class="footerLegend">Please enter your message</legend>
+                <textarea class="footerTeaxtarea" maxlength="280" required></textarea>
+            </fieldset>
+            <div class="agreeBlock">
+                <input type="checkbox" id="agree" class="checkbox">
+                <label for="agree" class="agreeText">I agree to the processing of Personal Data</label>
+            </div>
+            <button class="sendArrow">
+                <img src="../assets/icons/send_btn.png" alt="Send">
+            </button>
+        </form>
+        <h5 class="zooOnlineCenter">Zoo Online Center</h5>
+        <address>
+            <p class="contactAddress">
+                132, Address District, Street <br>
+                Open Daily 10:00 am - 5:00 pm
+            </p>
+            <div class="contactsNumMail">
+                <a href="tel:+7021633433" class="contactAddress">T(702)163-3433</a> <br>
+                <a href="mailto:zoo.online@gmail.com" class="contactAddress">zoo.online@gmail.com</a>
+            </div>
+        </address>
+        <div class="socialFooter">
+            <img src="../assets/icons/instagram.png" alt="Instagram" class="instagram">
+            <img src="../assets/icons/twitter.png" alt="Twitter" class="twitter">
+            <img src="../assets/icons/youtube.png" alt="Youtube" class="youtube">
+            <img src="../assets/icons/vk.png" alt="Vk" class="vk">
+        </div>
+        <hr class="footerHr">
+        <p class="authorFooter">
+            ©Noora Sagnayeva <br>
+            ©RSSchool and ©Yem Digital - 2021
+        </p>
+    </div>
+</footer>
+</body>
+</html>
